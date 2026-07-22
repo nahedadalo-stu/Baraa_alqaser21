@@ -4,7 +4,7 @@ session_start();
 require_once '../includes/db_connect.php';
 require_once '../includes/functions.php';
 
-/** @var mysqli $conn */
+
 
 check_admin();
 $is_admin   = true;
